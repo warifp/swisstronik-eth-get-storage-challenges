@@ -6,6 +6,7 @@ const getStorageValue = async (rpcURL, contractAddress, slotNumber) => {
 
   try {
     const storageValue = await provider.getStorage(contractAddress, slotNumber);
+    console.log(`\nResponse:`);
     console.log(`Storage Value at Slot ${slotNumber}: 0x${storageValue}`);
   } catch (error) {
     console.error("Error:", error);
