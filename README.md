@@ -1,4 +1,4 @@
-# Swisstronik Challenge ETH getStorage
+# Swisstronik ETH getStorage
 
 In this project, there are sample contracts, tests, and scripts that deploy contracts, as well as the Swisstronik blockchain network. This case demonstrates the basic usage of Hardhat.
 
